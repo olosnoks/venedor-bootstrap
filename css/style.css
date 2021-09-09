@@ -1,6 +1,12 @@
 /* generic */
 
+:root {
+    
+}
 
+* {
+    box-sizing: border-box;
+}
 
 /* close generic */
 
