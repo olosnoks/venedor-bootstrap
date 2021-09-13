@@ -44,24 +44,36 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
-            <ul class="cart-buttons d-flex justify-content-between" id="cartButtons">
-                <li>
-                    <button>
-
-                    </button>
-                </li>
-                <li>
-                    <button>
-
-                    </button>
-                </li>
-                <li>
-                    <button>
-
-                    </button>
-                </li>
-            </ul>
+        <div class="col-sm-12 col-lg-8 d-inline-flex justify-content-end shop-buttons">
+            <div class="dropdown dropdown1">
+                <button class="btn btn-secondary currency-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    &dollar; US Dollar
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">&euro; Euro</a>
+                    <a class="dropdown-item"  href="#">&pound; Pound</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown2">
+                <button class="btn btn-secondary lang-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="Media/icons8-usa-16.png" alt="english-flag"> English 
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#"><img src="media/icons8-italy-16.png" alt="italian-flag"> Italian</a>
+                    <a class="dropdown-item" href="#"><img src="media/icons8-spain-flag-16.png" alt="spanish-flag"> Spanish</a>
+                    <a class="dropdown-item" href="#"><img src="media/icons8-france-16.png" alt="french-flag"> French</a>
+                    <a class="dropdown-item" href="#"><img src="media/icons8-germany-16.png" alt="german-flag"> German</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown3">
+                <button class="btn btn-secondary cart-button" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><svg class="icon icon-cart, purchase, ecommerce, shopping"><use xlink:href="#icon-cart"></use></svg>
+                    0 item(s) - $0.00
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Your cart is empty.</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="main-nav-section2 row" id="mainNavSection2">
